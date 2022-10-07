@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Camera
+  - Water
+  - UI
+  - Floor
+  - Player
+  - SFX
+  - BGM
+  - Player_EFT
+  - Enemy
+  - Enemy_EFT
+  - NPC
+  - Interact
+  - Wall
+  - Door
+  - Cam_EFT
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 2425651459
+    locked: 0
+  - name: Interact
+    uniqueID: 4250941897
+    locked: 0
+  - name: Wall
+    uniqueID: 4189426099
+    locked: 0
+  - name: Character
+    uniqueID: 3040118319
+    locked: 0
