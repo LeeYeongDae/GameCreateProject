@@ -476,6 +476,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CaptureMod: 0
+  grid: {fileID: 547101112}
+  wall: {fileID: 932077275}
 --- !u!1 &825809879
 GameObject:
   m_ObjectHideFlags: 0

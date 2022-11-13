@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class Interaction : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Interaction : MonoBehaviour
     bool check2 = false;
     int password1 = 1136;
     int password2 = 4423;
+    public Grid grid;
+    public Tilemap wall;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +34,7 @@ public class Interaction : MonoBehaviour
         }
         if (check1)
         {
-            //Layer.removeTileAt(tilePos);
+            wall.SetTile(new Vector3Int(-14, 1, 0), null);
         }
         if (pos.x == 7 && pos.y == 7 && CaptureMod)
         {
@@ -43,7 +46,7 @@ public class Interaction : MonoBehaviour
         }
         if (check2)
         {
-            check2 = false;
+            wall.SetTile(new Vector3Int(13, 1, 0), null);
         }
     }
 
