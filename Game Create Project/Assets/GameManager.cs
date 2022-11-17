@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         startPos = Player.transform.position;
+        ChangeRoom();
         if (Input.GetKeyDown(KeyCode.C))
         {
            if(!CaptureMod)
@@ -76,6 +77,21 @@ public class GameManager : MonoBehaviour
     void Interact()
     {
         
+    }
+
+    void ChangeRoom()
+    {
+        if (Player.transform.position.x < -20)
+        {
+            bottomLeft = new Vector2Int(-66, -11);
+            topRight = new Vector2Int(-23, 25);
+        }
+
+        if (Player.transform.position.x > 20)
+        {
+            bottomLeft = new Vector2Int(22, -13);
+            topRight = new Vector2Int(81, 16);
+        }
     }
 
     public void PathFinding()
