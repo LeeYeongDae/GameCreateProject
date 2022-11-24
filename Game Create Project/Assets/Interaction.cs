@@ -5,7 +5,6 @@ using UnityEngine.Tilemaps;
 
 public class Interaction : MonoBehaviour
 {
-    public bool CaptureMod;
     private Vector2 pos;
     bool check1 = false;
     bool check2 = false;
@@ -26,9 +25,8 @@ public class Interaction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CaptureMod = GameObject.Find("GameManager").GetComponent<GameManager>().CaptureMod;
         pos = transform.position;
-        if (pos.x == -12 && pos.y == -4 && CaptureMod)
+        if (pos.x == -12 && pos.y == -4 && GameManager.CaptureMod)
         {
             check1 = true;
             pos.x = 0;
@@ -39,7 +37,7 @@ public class Interaction : MonoBehaviour
         {
             wall.SetTile(new Vector3Int(-14, 1, 0), null);
         }
-        if (pos.x == 7 && pos.y == 7 && CaptureMod)
+        if (pos.x == 7 && pos.y == 7 && GameManager.CaptureMod)
         {
             check2 = true;
             transform.position = Player.transform.position;
@@ -48,7 +46,7 @@ public class Interaction : MonoBehaviour
         {
             wall.SetTile(new Vector3Int(13, 1, 0), null);
         }
-        if (pos.x == -28 && pos.y == 3 && CaptureMod)
+        if (pos.x == -28 && pos.y == 3 && GameManager.CaptureMod)
         {
             check3 = true;
             transform.position = Player.transform.position;
@@ -58,7 +56,7 @@ public class Interaction : MonoBehaviour
             wall.SetTile(new Vector3Int(-46, -3, 0), null);
             wall.SetTile(new Vector3Int(-37, 1, 0), null);
         }
-        if (pos.x == -52 && pos.y == -1 && CaptureMod)
+        if (pos.x == -52 && pos.y == -1 && GameManager.CaptureMod)
         {
             check4 = true;
             transform.position = Player.transform.position;
@@ -68,7 +66,7 @@ public class Interaction : MonoBehaviour
             wall.SetTile(new Vector3Int(-61, 0, 0), null);
             wall.SetTile(new Vector3Int(-61, 12, 0), null);
         }
-        if (pos.x == 39 && pos.y == -4 && CaptureMod)
+        if (pos.x == 39 && pos.y == -4 && GameManager.CaptureMod)
         {
             check5 = true;
             transform.position = Player.transform.position;
@@ -78,7 +76,7 @@ public class Interaction : MonoBehaviour
             wall.SetTile(new Vector3Int(28, -3, 0), null);
             wall.SetTile(new Vector3Int(62, -3, 0), null);
         }
-        if (pos.x == 41 && pos.y == 8 && CaptureMod)
+        if (pos.x == 41 && pos.y == 8 && GameManager.CaptureMod)
         {
             check6 = true;
             transform.position = Player.transform.position;

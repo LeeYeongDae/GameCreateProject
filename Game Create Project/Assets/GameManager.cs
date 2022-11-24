@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public bool CaptureMod;
+    public static bool isOver;
+    public static bool CaptureMod;
     public Vector2Int bottomLeft, topRight;
     public Vector2 startPos, targetPos;
     public List<Node> FinalNodeList;
@@ -87,10 +88,16 @@ public class GameManager : MonoBehaviour
             topRight = new Vector2Int(-23, 25);
         }
 
-        if (Player.transform.position.x > 20)
+        else if (Player.transform.position.x > 20)
         {
             bottomLeft = new Vector2Int(22, -13);
             topRight = new Vector2Int(81, 16);
+        }
+
+        else
+        {
+            bottomLeft = new Vector2Int(-20, -17);
+            topRight = new Vector2Int(20, 10);
         }
     }
 

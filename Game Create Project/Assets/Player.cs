@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
     public List<Node> path;
     public int num;
     public int setNum;
-    public bool CaptureMod;
     public bool OnClicked;
     public bool isWalked = false;
     public float runGage = 10;
@@ -27,7 +26,6 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CaptureMod = GameObject.Find("GameManager").GetComponent<GameManager>().CaptureMod;
         path = GameObject.Find("GameManager").GetComponent<GameManager>().FinalNodeList;
 
         if (lastPos != transform.localPosition)
@@ -37,7 +35,7 @@ public class Player : MonoBehaviour
         }
         else isWalked = false;
 
-        if (CaptureMod)
+        if (GameManager.CaptureMod)
         {
             speed = 0f;
             setNum = num;
@@ -58,6 +56,13 @@ public class Player : MonoBehaviour
             nextPos = new Vector2(-24, -1);
             Camera.transform.position = new Vector3(-36, 0, -10);
         }
+        if (transform.position.x == -23)
+        {
+            num++;
+            this.transform.position = new Vector2(-19, -1);
+            nextPos = new Vector2(-19, -1);
+            Camera.transform.position = new Vector3(-7, 0, -10);
+        }
         if (transform.position.x == 19)
         {
             num++;
@@ -65,11 +70,18 @@ public class Player : MonoBehaviour
             nextPos = new Vector2(23, -1);
             Camera.transform.position = new Vector3(35, 0, -10);
         }
+        if (transform.position.x == 22)
+        {
+            num++;
+            this.transform.position = new Vector2(18, -1);
+            nextPos = new Vector2(18, -1);
+            Camera.transform.position = new Vector3(6, 0, -10);
+        }
     }
 
     void FixedUpdate()
     {
-        if(!CaptureMod)
+        if(!GameManager.CaptureMod)
         {
             if (Input.GetKey(KeyCode.R) && runGage > 0 && isWalked)
                 runGage -= Time.deltaTime;

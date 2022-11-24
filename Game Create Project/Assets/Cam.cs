@@ -5,7 +5,6 @@ using UnityEngine;
 public class Cam : MonoBehaviour
 {
     public float velocity = 5f;
-    public bool CaptureMod;
     GameObject Player;
 
     // Start is called before the first frame update
@@ -16,9 +15,8 @@ public class Cam : MonoBehaviour
 
     void FixedUpdate()
     {
-        CaptureMod = GameObject.Find("GameManager").GetComponent<GameManager>().CaptureMod;
 
-        if (!CaptureMod)
+        if (!GameManager.CaptureMod)
         {
             X_Move();
             Y_Move();

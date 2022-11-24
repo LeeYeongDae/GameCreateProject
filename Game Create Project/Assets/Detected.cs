@@ -7,12 +7,12 @@ public class Detected : MonoBehaviour
     float detectTime = 1f;
     float WarnTime;
     bool Warn;
-    public static bool isOver;
-    GameObject MiniGame;
+    public static bool detect = false;
+    SpriteRenderer sren;
 
     void Start()
     {
-
+        sren = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -22,10 +22,11 @@ public class Detected : MonoBehaviour
             WarnTime += Time.deltaTime;
             if (WarnTime >= detectTime)
             {
-                isOver = true;
-                //Destroy(MiniGame, 0.2f);
+                detect = true;
+                sren.color = new Color(1, 0, 0, 1);
             }
         }
+        else detect = false;
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -33,6 +34,7 @@ public class Detected : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Warn = true;
+            sren.color = new Color(1, 1, 1, 1);
         }
     }
 
@@ -42,6 +44,7 @@ public class Detected : MonoBehaviour
         {
             WarnTime = 0f;
             Warn = false;
+            sren.color = new Color(0, 1, 0, 1);
         }
     }
 }
