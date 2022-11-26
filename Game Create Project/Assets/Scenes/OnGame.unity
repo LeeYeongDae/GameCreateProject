@@ -813,7 +813,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553170700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10, y: -1, z: 0}
+  m_LocalPosition: {x: -12, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1059,6 +1059,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5ba10698578f744583f87f51d0ac466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  detect: 0
+  watchRight: 0
+  angle: 0
 --- !u!212 &810151771
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36516,6 +36519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45110571de05dae439014f6b89278bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  detect: 0
 --- !u!212 &1250922181
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36915,6 +36919,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5ba10698578f744583f87f51d0ac466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  detect: 0
+  watchRight: 0
+  angle: 0
 --- !u!58 &1791611978
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -37035,7 +37042,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852969071}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10, y: -1, z: 0}
+  m_LocalPosition: {x: 12, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -37172,6 +37179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45110571de05dae439014f6b89278bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  detect: 0
 --- !u!1 &1939925336
 GameObject:
   m_ObjectHideFlags: 0

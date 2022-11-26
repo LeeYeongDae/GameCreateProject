@@ -7,7 +7,7 @@ public class Detected : MonoBehaviour
     float detectTime = 1f;
     float WarnTime;
     bool Warn;
-    public static bool detect = false;
+    public bool detect = false;
     SpriteRenderer sren;
 
     void Start()
