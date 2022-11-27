@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     private Vector3 startPos, currPosition;
     float dirx, diry, angle;
     GameObject player, img;
-    bool detect, watchRight, Idle;
+    public bool detect = false, watchRight = false, Idle = true;
 
     void Start()
     {
@@ -25,41 +25,18 @@ public class Enemy : MonoBehaviour
             Idle = false;
             Invoke("ChasePlayer", 0.5f);
         }
-        else if (!this.detect && !Idle)
+        else if (!this.detect)
         {
-            Invoke("ReturnStart", 3f);
+            if (!Idle && currPosition != startPos)
+                Invoke("ReturnStart", 3f);
             if (currPosition == startPos)
                 Idle = true;
         }
-        else if (!this.detect && Idle)
-        {
-            IdleMove();
-        }
     }
-
     void ReturnStart()
     {
-        transform.position = Vector2.MoveTowards(currPosition, startPos, 2f * Time.deltaTime);
-    }
-    void IdleMove()
-    {
-        if (watchRight && currPosition.x < startPos.x + 4)
-            currPosition.x -= (Time.deltaTime * 2f);
-        else if((watchRight && currPosition.x == startPos.x + 4) || (!watchRight && currPosition.x == startPos.x - 4))
-        {
-            angle = img.GetComponent<Arrested>().angle;
-            img.GetComponent<Arrested>().RotateEnemy();
-        }
-        if (!watchRight && currPosition.x > startPos.x - 4)
-            currPosition.x += (Time.deltaTime * 2f);
-        else if (!watchRight && currPosition.x == startPos.x - 4)
-        {
-            angle = img.GetComponent<Arrested>().angle;
-            angle += 0.01f;
-            if (angle != 180)
-                img.GetComponent<Arrested>().RotateEnemy();
-            else watchRight = true;
-        }
+        if (currPosition != startPos)
+            transform.position = Vector2.MoveTowards(currPosition, startPos, 40f * Time.deltaTime);
     }
 
     void ChasePlayer()

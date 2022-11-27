@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public Vector2 startPos, targetPos;
     public List<Node> FinalNodeList;
     public bool allowDiagonal, dontCrossCorner;
+    public GameObject Capture;
     public GameObject Player;
     public GameObject Touch;
     int sizeX, sizeY;
@@ -18,13 +19,17 @@ public class GameManager : MonoBehaviour
     Node StartNode, TargetNode, CurNode;
     List<Node> OpenList, ClosedList ;
     Camera Camera;
+    Animator Capanim;
 
     private void Awake()
     {
         CaptureMod = false;
+        Capture = GameObject.Find("Capture");
+        Capture.SetActive(false);
         Player = GameObject.Find("Player");
         Touch = GameObject.Find("TouchPin");
         Camera = GameObject.Find("Main Camera").GetComponent<Camera>();
+        Capanim = Capture.GetComponent<Animator>();
     }
 
     void Update()
@@ -34,9 +39,16 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
            if(!CaptureMod)
-            CaptureMod = true;
+            {
+                Capture.SetActive(true);
+                Capanim.SetBool("isMod", true);
+                CaptureMod = true;
+            }
            else
-            CaptureMod = false;
+            {
+                Capanim.SetBool("isMod", false);
+                StartCoroutine(Off());
+            }
         }
         SetTarget();
     }
@@ -99,6 +111,13 @@ public class GameManager : MonoBehaviour
             bottomLeft = new Vector2Int(-20, -17);
             topRight = new Vector2Int(20, 10);
         }
+    }
+
+    IEnumerator Off()
+    {
+        yield return new WaitForSeconds(0.55f);
+        Capture.SetActive(false);
+        CaptureMod = false;
     }
 
     public void PathFinding()
