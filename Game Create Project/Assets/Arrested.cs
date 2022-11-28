@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Arrested : MonoBehaviour
 {
-    private Vector3 currPosition;
+    private Vector3 currPosition, startPos;
     GameObject player, sight, pos;
     public bool detect, watchRight, Idle;
     bool Check = true;
@@ -15,6 +15,7 @@ public class Arrested : MonoBehaviour
     {
         player = GameObject.Find("Player");
         pos = transform.parent.gameObject;
+        startPos = pos.GetComponent<Enemy>().startPos;
         sight = transform.GetChild(0).gameObject;
     }
 
@@ -23,8 +24,13 @@ public class Arrested : MonoBehaviour
         detect = sight.GetComponent<Detected>().detect;
         Idle = pos.GetComponent<Enemy>().Idle;
         currPosition = transform.position;
-        if (this.detect) FacePlayer();
-        if (!this.detect && Idle && Check && !GameManager.CaptureMod) RotateEnemy();
+        if(!GameManager.CaptureMod)
+        {
+            if (this.detect) FacePlayer();
+            else if (!this.detect && !Idle) Invoke("ReturnPos", 2f);
+            if (!this.detect && Idle && Check) RotateEnemy();
+            
+        }
         if (checkangle % 180 == 0)
         {
             Check = false;
@@ -48,6 +54,14 @@ public class Arrested : MonoBehaviour
         this.transform.rotation = Quaternion.RotateTowards(this.transform.rotation, rot, Time.deltaTime * 30f);
         //float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         //transform.rotation = Quaternion.AngleAxis(angle + 180f, Vector3.forward);
+    }
+
+    void ReturnPos()
+    {
+        Vector3 dir = startPos - currPosition;
+        Vector3 qut = Quaternion.Euler(0, 0, 0) * dir;
+        Quaternion rot = Quaternion.LookRotation(forward: Vector3.forward, upwards: qut);
+        this.transform.rotation = Quaternion.RotateTowards(this.transform.rotation, rot, Time.deltaTime * 100f);
     }
 
     IEnumerator Wait()

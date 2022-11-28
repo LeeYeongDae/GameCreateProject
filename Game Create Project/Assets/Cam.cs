@@ -6,16 +6,18 @@ public class Cam : MonoBehaviour
 {
     public float velocity = 5f;
     GameObject Player;
+    Camera Camera;
 
     // Start is called before the first frame update
     void Start()
     {
         Player = GameObject.Find("Player");
+        Camera = GameObject.Find("Main Camera").GetComponent<Camera>();
     }
 
     void FixedUpdate()
     {
-
+        if (!isPlayerVisible()) GameManager.isOver = true;
         if (!GameManager.CaptureMod)
         {
             X_Move();
@@ -61,5 +63,17 @@ public class Cam : MonoBehaviour
         }
 
         transform.position += movedirection * velocity * Time.deltaTime;
+    }
+
+    bool isPlayerVisible()
+    {
+        var view = GeometryUtility.CalculateFrustumPlanes(Camera);
+        var player = Player.transform.position;
+        foreach(var exist in view)
+        {
+            if (exist.GetDistanceToPoint(player) < 0)
+                return false;
+        }
+        return true;
     }
 }

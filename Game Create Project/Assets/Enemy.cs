@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    private Vector3 startPos, currPosition;
+    private Vector3 currPosition;
+    public Vector3 startPos;
     float dirx, diry, angle;
     GameObject player, img;
     public bool detect = false, watchRight = false, Idle = true;
-
+    bool Warn;
     void Start()
     {
         player = GameObject.Find("Player");
@@ -19,12 +20,10 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         detect = img.GetComponent<Arrested>().detect;
+        Warn = this.GetComponentInChildren<Detected>().Warn;
         currPosition = transform.position;
-        if (this.detect)
-        {
-            Idle = false;
-            Invoke("ChasePlayer", 0.5f);
-        }
+        if (this.Warn) Idle = false;
+        if (this.detect) ChasePlayer();
         else if (!this.detect)
         {
             if (!Idle && currPosition != startPos)
@@ -36,7 +35,7 @@ public class Enemy : MonoBehaviour
     void ReturnStart()
     {
         if (currPosition != startPos)
-            transform.position = Vector2.MoveTowards(currPosition, startPos, 40f * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(currPosition, startPos, 10f * Time.deltaTime);
     }
 
     void ChasePlayer()

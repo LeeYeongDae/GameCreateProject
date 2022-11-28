@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if (isOver) Time.timeScale = 0f;
         startPos = Player.transform.position;
         ChangeRoom();
         if (Input.GetKeyDown(KeyCode.C))
