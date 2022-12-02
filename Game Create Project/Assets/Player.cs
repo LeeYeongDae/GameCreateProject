@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     public float runGage = 10;
     Vector3 lastPos;
     Camera Camera;
+    GameObject Touch;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class Player : MonoBehaviour
         num = 0;
         OnClicked = false;
         Camera = GameObject.Find("Main Camera").GetComponent<Camera>();
+        Touch = GameObject.Find("TouchPin");
     }
 
     // Update is called once per frame
@@ -39,6 +41,7 @@ public class Player : MonoBehaviour
         {
             speed = 0f;
             setNum = num;
+            if (Input.GetKeyDown(KeyCode.C)) Touch.transform.position = transform.position;
         }
         else
         {

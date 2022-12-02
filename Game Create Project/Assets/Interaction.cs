@@ -12,9 +12,12 @@ public class Interaction : MonoBehaviour
     bool check4 = false;
     bool check5 = false;
     bool check6 = false;
+    bool checkS1, checkS2, checkS3;
     public Grid grid;
-    public Tilemap wall;
+    public Tilemap door, file;
+    public TileBase Col, Row;
     GameObject Player;
+    float distance;
 
     // Start is called before the first frame update
     void Start()
@@ -29,13 +32,12 @@ public class Interaction : MonoBehaviour
         if (pos.x == -12 && pos.y == -4 && GameManager.CaptureMod)
         {
             check1 = true;
-            pos.x = 0;
-            pos.y = 0;
-            transform.position = pos;
+            transform.position = Player.transform.position;
         }
         if (check1)
         {
-            wall.SetTile(new Vector3Int(-14, 1, 0), null);
+            door.SetTile(new Vector3Int(-14, 1, 0), null);
+            //distance = Vector3.Distance(transform.position, target.position);
         }
         if (pos.x == 7 && pos.y == 7 && GameManager.CaptureMod)
         {
@@ -44,7 +46,7 @@ public class Interaction : MonoBehaviour
         }
         if (check2)
         {
-            wall.SetTile(new Vector3Int(13, 1, 0), null);
+            door.SetTile(new Vector3Int(13, 1, 0), null/*Row*/);
         }
         if (pos.x == -28 && pos.y == 3 && GameManager.CaptureMod)
         {
@@ -53,8 +55,8 @@ public class Interaction : MonoBehaviour
         }
         if (check3)
         {
-            wall.SetTile(new Vector3Int(-46, -3, 0), null);
-            wall.SetTile(new Vector3Int(-37, 1, 0), null);
+            door.SetTile(new Vector3Int(-46, -3, 0), null/*Row*/);
+            door.SetTile(new Vector3Int(-37, 1, 0), null/*Row*/);
         }
         if (pos.x == -52 && pos.y == -1 && GameManager.CaptureMod)
         {
@@ -63,8 +65,8 @@ public class Interaction : MonoBehaviour
         }
         if (check4)
         {
-            wall.SetTile(new Vector3Int(-61, 0, 0), null);
-            wall.SetTile(new Vector3Int(-61, 12, 0), null);
+            door.SetTile(new Vector3Int(-61, 0, 0), null/*Col*/);
+            door.SetTile(new Vector3Int(-61, 12, 0), null/*Col*/);
         }
         if (pos.x == 39 && pos.y == -4 && GameManager.CaptureMod)
         {
@@ -73,8 +75,8 @@ public class Interaction : MonoBehaviour
         }
         if (check5)
         {
-            wall.SetTile(new Vector3Int(28, -3, 0), null);
-            wall.SetTile(new Vector3Int(62, -3, 0), null);
+            door.SetTile(new Vector3Int(28, -3, 0), null/*Row*/);
+            door.SetTile(new Vector3Int(62, -3, 0), null/*Row*/);
         }
         if (pos.x == 41 && pos.y == 8 && GameManager.CaptureMod)
         {
@@ -83,9 +85,31 @@ public class Interaction : MonoBehaviour
         }
         if (check6)
         {
-            wall.SetTile(new Vector3Int(50, 12, 0), null);
-            wall.SetTile(new Vector3Int(42, 14, 0), null);
+            door.SetTile(new Vector3Int(50, 12, 0), null/*Row*/);
+            door.SetTile(new Vector3Int(42, 14, 0), null/*Col*/);
         }
+
+        if (Player.transform.position.x == -15 && Player.transform.position.y == 8)
+        {
+            file.SetTile(new Vector3Int(-15, 8, 0), null);
+            door.SetTile(new Vector3Int(-61, -9, 0), null/*Col*/);
+            door.SetTile(new Vector3Int(44, 12, 0), null/*Row*/);
+            door.SetTile(new Vector3Int(62, 10, 0), null/*Col*/);
+        }
+        if (Player.transform.position.x == -64 && Player.transform.position.y == 22)
+        {
+            file.SetTile(new Vector3Int(-64, 22, 0), null);
+            door.SetTile(new Vector3Int(-50, 7, 0), null/*Col*/);
+            door.SetTile(new Vector3Int(74, 12, 0), null/*Row*/);
+        }
+        if (Player.transform.position.x == 28 && Player.transform.position.y == 13)
+        {
+            file.SetTile(new Vector3Int(28, 13, 0), null);
+            door.SetTile(new Vector3Int(28, 1, 0), null/*Row*/);
+            door.SetTile(new Vector3Int(78, 14, 0), null/*Col*/);
+        }
+
+
     }
 
 }

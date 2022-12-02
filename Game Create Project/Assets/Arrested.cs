@@ -6,7 +6,7 @@ public class Arrested : MonoBehaviour
 {
     private Vector3 currPosition, startPos;
     GameObject player, sight, pos;
-    public bool detect, watchRight, Idle;
+    public bool detect, Idle, Rotating, Vertical;
     bool Check = true;
     public float angle;
     int checkangle;
@@ -28,7 +28,7 @@ public class Arrested : MonoBehaviour
         {
             if (this.detect) FacePlayer();
             else if (!this.detect && !Idle) Invoke("ReturnPos", 2f);
-            if (!this.detect && Idle && Check) RotateEnemy();
+            if (!this.detect && Idle && Check && Rotating) RotateEnemy();
             
         }
         if (checkangle % 180 == 0)
@@ -43,6 +43,7 @@ public class Arrested : MonoBehaviour
         angle += 40f * Time.deltaTime;
         if (angle > 360) angle -= 360;
         checkangle = (int)angle;
+        if (Vertical) checkangle += 90;
         this.transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 

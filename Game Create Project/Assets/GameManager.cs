@@ -83,14 +83,7 @@ public class GameManager : MonoBehaviour
                 Player.GetComponent<Player>().OnClicked = true;
                 PathFinding();
             }
-            else if (CaptureMod)
-                Interact();
         }
-    }
-
-    void Interact()
-    {
-        
     }
 
     void ChangeRoom()

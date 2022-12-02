@@ -9,10 +9,14 @@ public class Detected : MonoBehaviour
     public bool Warn;
     public bool detect = false;
     SpriteRenderer sren;
+    GameObject swf;
+
 
     void Start()
     {
         sren = GetComponent<SpriteRenderer>();
+        swf = transform.GetChild(0).gameObject;
+        swf.SetActive(false);
     }
 
     void Update()
@@ -34,6 +38,7 @@ public class Detected : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Warn = true;
+            swf.SetActive(true);
             sren.color = new Color(1, 1, 1, 1);
         }
     }
@@ -44,6 +49,7 @@ public class Detected : MonoBehaviour
         {
             WarnTime = 0f;
             Warn = false;
+            swf.SetActive(false);
             sren.color = new Color(0, 1, 0, 1);
         }
     }

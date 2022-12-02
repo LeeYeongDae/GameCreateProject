@@ -7,19 +7,18 @@ public class Enemy : MonoBehaviour
     private Vector3 currPosition;
     public Vector3 startPos;
     float dirx, diry, angle;
-    GameObject player, img;
-    public bool detect = false, watchRight = false, Idle = true;
-    bool Warn;
+    GameObject player;
+    public bool Idle = true;
+    bool Warn, detect;
     void Start()
     {
         player = GameObject.Find("Player");
-        img = transform.GetChild(0).gameObject;
         startPos = this.transform.position;
     }
 
     void Update()
     {
-        detect = img.GetComponent<Arrested>().detect;
+        detect = this.GetComponentInChildren<Detected>().detect;
         Warn = this.GetComponentInChildren<Detected>().Warn;
         currPosition = transform.position;
         if (this.Warn) Idle = false;
