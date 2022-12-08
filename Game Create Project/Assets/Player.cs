@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
         num = 0;
         OnClicked = false;
         Camera = GameObject.Find("Main Camera").GetComponent<Camera>();
-        Touch = GameObject.Find("TouchPin");
+        Touch = GameObject.Find("Destination");
     }
 
     // Update is called once per frame

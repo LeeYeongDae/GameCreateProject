@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
         Capture = GameObject.Find("Capture");
         Capture.SetActive(false);
         Player = GameObject.Find("Player");
-        Touch = GameObject.Find("TouchPin");
+        Touch = GameObject.Find("Destination");
         Camera = GameObject.Find("Main Camera").GetComponent<Camera>();
         Capanim = Capture.GetComponent<Animator>();
     }

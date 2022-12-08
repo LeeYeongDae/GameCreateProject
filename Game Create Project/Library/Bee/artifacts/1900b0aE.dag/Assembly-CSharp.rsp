@@ -385,6 +385,7 @@
 "Assets/GameManager.cs"
 "Assets/Interaction.cs"
 "Assets/Node.cs"
+"Assets/Password.cs"
 "Assets/Player.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

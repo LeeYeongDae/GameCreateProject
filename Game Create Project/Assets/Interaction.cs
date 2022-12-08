@@ -6,18 +6,13 @@ using UnityEngine.Tilemaps;
 public class Interaction : MonoBehaviour
 {
     private Vector2 pos;
-    bool check1 = false;
-    bool check2 = false;
-    bool check3 = false;
-    bool check4 = false;
-    bool check5 = false;
-    bool check6 = false;
-    bool checkS1, checkS2, checkS3;
+    public bool check1, check2, check3, check4, check5, check6;
+    public bool checkS1, checkS2, checkS3;
     public Grid grid;
     public Tilemap door, file;
     public TileBase Col, Row;
+    public static bool hack1, hack2, hack3, hack4, hack5, hack6;
     GameObject Player;
-    float distance;
 
     // Start is called before the first frame update
     void Start()
@@ -32,61 +27,91 @@ public class Interaction : MonoBehaviour
         if (pos.x == -12 && pos.y == -4 && GameManager.CaptureMod)
         {
             check1 = true;
+            hack1 = true;
             transform.position = Player.transform.position;
+            door.SetTile(new Vector3Int(-14, 1, 0), Row);
         }
         if (check1)
         {
-            door.SetTile(new Vector3Int(-14, 1, 0), null);
-            //distance = Vector3.Distance(transform.position, target.position);
+            if (Vector3.Distance(new Vector3Int(-14, 1, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(-14, 1, 0), null);
         }
+
         if (pos.x == 7 && pos.y == 7 && GameManager.CaptureMod)
         {
             check2 = true;
+            hack2 = true;
             transform.position = Player.transform.position;
+            door.SetTile(new Vector3Int(13, 1, 0), Row);
         }
         if (check2)
         {
-            door.SetTile(new Vector3Int(13, 1, 0), null/*Row*/);
+            if (Vector3.Distance(new Vector3Int(13, 1, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(13, 1, 0), null);
         }
+
         if (pos.x == -28 && pos.y == 3 && GameManager.CaptureMod)
         {
             check3 = true;
+            hack3 = true;
             transform.position = Player.transform.position;
+            door.SetTile(new Vector3Int(-46, -3, 0), Row);
+            door.SetTile(new Vector3Int(-37, 1, 0), Row);
         }
         if (check3)
         {
-            door.SetTile(new Vector3Int(-46, -3, 0), null/*Row*/);
-            door.SetTile(new Vector3Int(-37, 1, 0), null/*Row*/);
+            if (Vector3.Distance(new Vector3Int(-46, -3, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(-46, -3, 0), null);
+            if (Vector3.Distance(new Vector3Int(-37, 1, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(-37, 1, 0), null);
         }
+
         if (pos.x == -52 && pos.y == -1 && GameManager.CaptureMod)
         {
             check4 = true;
+            hack3 = true;
             transform.position = Player.transform.position;
+            door.SetTile(new Vector3Int(-61, 0, 0), Col);
+            door.SetTile(new Vector3Int(-61, 12, 0), Col);
         }
         if (check4)
         {
-            door.SetTile(new Vector3Int(-61, 0, 0), null/*Col*/);
-            door.SetTile(new Vector3Int(-61, 12, 0), null/*Col*/);
+            if (Vector3.Distance(new Vector3Int(-61, 0, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(-61, 0, 0), null);
+            if (Vector3.Distance(new Vector3Int(-61, 12, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(-61, 12, 0), null);
         }
+
         if (pos.x == 39 && pos.y == -4 && GameManager.CaptureMod)
         {
             check5 = true;
+            hack5 = true;
             transform.position = Player.transform.position;
+            door.SetTile(new Vector3Int(28, -3, 0), Row);
+            door.SetTile(new Vector3Int(62, -3, 0), Row);
         }
         if (check5)
         {
-            door.SetTile(new Vector3Int(28, -3, 0), null/*Row*/);
-            door.SetTile(new Vector3Int(62, -3, 0), null/*Row*/);
+            if (Vector3.Distance(new Vector3Int(28, -3, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(28, -3, 0), null);
+            if (Vector3.Distance(new Vector3Int(62, -3, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(62, -3, 0), null);
         }
+
         if (pos.x == 41 && pos.y == 8 && GameManager.CaptureMod)
         {
             check6 = true;
+            hack6 = true;
             transform.position = Player.transform.position;
+            door.SetTile(new Vector3Int(50, 12, 0), Row);
+            door.SetTile(new Vector3Int(42, 14, 0), Col);
         }
         if (check6)
         {
-            door.SetTile(new Vector3Int(50, 12, 0), null/*Row*/);
-            door.SetTile(new Vector3Int(42, 14, 0), null/*Col*/);
+            if (Vector3.Distance(new Vector3Int(50, 12, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(50, 12, 0), null);
+            if (Vector3.Distance(new Vector3Int(42, 14, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(42, 14, 0), null);
         }
 
         if (Player.transform.position.x == -15 && Player.transform.position.y == 8)
