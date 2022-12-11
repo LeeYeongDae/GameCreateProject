@@ -12,6 +12,7 @@ public class Interaction : MonoBehaviour
     public Tilemap door, file;
     public TileBase Col, Row;
     public static bool hack1, hack2, hack3, hack4, hack5, hack6;
+    public static bool read1, read2, read3;
     GameObject Player;
 
     // Start is called before the first frame update
@@ -114,9 +115,10 @@ public class Interaction : MonoBehaviour
                 door.SetTile(new Vector3Int(42, 14, 0), null);
         }
 
-        if (Player.transform.position.x == -15 && Player.transform.position.y == 8)
+        if (Player.transform.position.x == -15 && Player.transform.position.y == 8 && !checkS1)
         {
             checkS1 = true;
+            read1 = true;
             file.SetTile(new Vector3Int(-15, 8, 0), null);
             door.SetTile(new Vector3Int(-61, -9, 0), Col);
             door.SetTile(new Vector3Int(44, 12, 0), Row);
@@ -132,9 +134,10 @@ public class Interaction : MonoBehaviour
                 door.SetTile(new Vector3Int(62, 10, 0), null);
         }
 
-        if (Player.transform.position.x == -64 && Player.transform.position.y == 22)
+        if (Player.transform.position.x == -64 && Player.transform.position.y == 22 && !checkS2)
         {
             checkS2 = true;
+            read2 = true;
             file.SetTile(new Vector3Int(-64, 22, 0), null);
             door.SetTile(new Vector3Int(-50, 7, 0), Col);
             door.SetTile(new Vector3Int(74, 12, 0), Row);
@@ -147,9 +150,10 @@ public class Interaction : MonoBehaviour
                  door.SetTile(new Vector3Int(74, 12, 0), null);
         }
 
-        if (Player.transform.position.x == 28 && Player.transform.position.y == 13)
+        if (Player.transform.position.x == 28 && Player.transform.position.y == 13 && !checkS3)
         {
             checkS3 = true;
+            read3 = true;
             file.SetTile(new Vector3Int(28, 13, 0), null);
             door.SetTile(new Vector3Int(28, 1, 0), Row);
             door.SetTile(new Vector3Int(78, 14, 0), Col);
