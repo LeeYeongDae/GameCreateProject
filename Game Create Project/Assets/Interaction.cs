@@ -116,22 +116,50 @@ public class Interaction : MonoBehaviour
 
         if (Player.transform.position.x == -15 && Player.transform.position.y == 8)
         {
+            checkS1 = true;
             file.SetTile(new Vector3Int(-15, 8, 0), null);
-            door.SetTile(new Vector3Int(-61, -9, 0), null/*Col*/);
-            door.SetTile(new Vector3Int(44, 12, 0), null/*Row*/);
-            door.SetTile(new Vector3Int(62, 10, 0), null/*Col*/);
+            door.SetTile(new Vector3Int(-61, -9, 0), Col);
+            door.SetTile(new Vector3Int(44, 12, 0), Row);
+            door.SetTile(new Vector3Int(62, 10, 0), Col);
         }
+        if (checkS1)
+        {
+            if (Vector3.Distance(new Vector3Int(-61, -9, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(-61, -9, 0), null);
+            if (Vector3.Distance(new Vector3Int(44, 12, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(44, 12, 0), null);
+            if (Vector3.Distance(new Vector3Int(62, 10, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(62, 10, 0), null);
+        }
+
         if (Player.transform.position.x == -64 && Player.transform.position.y == 22)
         {
+            checkS2 = true;
             file.SetTile(new Vector3Int(-64, 22, 0), null);
-            door.SetTile(new Vector3Int(-50, 7, 0), null/*Col*/);
-            door.SetTile(new Vector3Int(74, 12, 0), null/*Row*/);
+            door.SetTile(new Vector3Int(-50, 7, 0), Col);
+            door.SetTile(new Vector3Int(74, 12, 0), Row);
         }
+        if (checkS2)
+        {
+            if (Vector3.Distance(new Vector3Int(-50, 7, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(-50, 7, 0), null);
+            if (Vector3.Distance(new Vector3Int(74, 12, 0), Player.transform.position) < 1.5f)
+                 door.SetTile(new Vector3Int(74, 12, 0), null);
+        }
+
         if (Player.transform.position.x == 28 && Player.transform.position.y == 13)
         {
+            checkS3 = true;
             file.SetTile(new Vector3Int(28, 13, 0), null);
-            door.SetTile(new Vector3Int(28, 1, 0), null/*Row*/);
-            door.SetTile(new Vector3Int(78, 14, 0), null/*Col*/);
+            door.SetTile(new Vector3Int(28, 1, 0), Row);
+            door.SetTile(new Vector3Int(78, 14, 0), Col);
+        }
+        if (checkS3)
+        {
+            if (Vector3.Distance(new Vector3Int(28, 1, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(28, 1, 0), null);
+            if (Vector3.Distance(new Vector3Int(78, 14, 0), Player.transform.position) < 1.5f)
+                door.SetTile(new Vector3Int(78, 14, 0), null);
         }
 
 

@@ -7,6 +7,7 @@ public class Cam : MonoBehaviour
     public float velocity = 5f;
     GameObject Player;
     Camera Camera;
+    float signal = 3f;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,12 @@ public class Cam : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!isPlayerVisible()) GameManager.isOver = true;
+        if (!isPlayerVisible())
+        {
+            signal -= Time.deltaTime;
+            if (signal <= 0) GameManager.isOver = true;
+        }
+        else signal = 3f;
         if (!GameManager.CaptureMod)
         {
             X_Move();
