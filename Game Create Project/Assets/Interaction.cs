@@ -70,7 +70,7 @@ public class Interaction : MonoBehaviour
         if (pos.x == -52 && pos.y == -1 && GameManager.CaptureMod)
         {
             check4 = true;
-            hack3 = true;
+            hack4 = true;
             transform.position = Player.transform.position;
             door.SetTile(new Vector3Int(-61, 0, 0), Col);
             door.SetTile(new Vector3Int(-61, 12, 0), Col);

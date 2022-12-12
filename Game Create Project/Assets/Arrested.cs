@@ -8,7 +8,7 @@ public class Arrested : MonoBehaviour
     GameObject player, sight, pos;
     public bool detect, Idle, Rotating, Vertical;
     bool Check = true;
-    public float angle;
+    public float angle, gatchatime;
     int checkangle;
 
     void Start()
@@ -75,7 +75,16 @@ public class Arrested : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            GameManager.isOver = true;
+            gatchatime += 2 * Time.deltaTime;
+            if (gatchatime >= 1)    GameManager.isOver = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            gatchatime = 0f;
         }
     }
 }

@@ -1,29 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Cam : MonoBehaviour
 {
     public float velocity = 5f;
     GameObject Player;
     Camera Camera;
-    float signal = 3f;
+    RectTransform Glitch;
+    Image Glitchim;
+    float signal = 0f;
 
     // Start is called before the first frame update
     void Start()
     {
         Player = GameObject.Find("Player");
         Camera = GameObject.Find("Main Camera").GetComponent<Camera>();
+        Glitch = GameObject.Find("Glitch").GetComponent<RectTransform>();
+        Glitchim = GameObject.Find("Glitch").GetComponent<Image>();
     }
 
     void FixedUpdate()
     {
         if (!isPlayerVisible())
         {
-            signal -= Time.deltaTime;
-            if (signal <= 0) GameManager.isOver = true;
+            signal += Time.deltaTime;
+            Glitching();
+            if (signal >= 3) GameManager.isOver = true;
         }
-        else signal = 3f;
+        else
+        {
+            signal = 0f;
+            Glitchim.color = new Color(Glitchim.color.r, Glitchim.color.g, Glitchim.color.b, 0);
+        }
         if (!GameManager.CaptureMod)
         {
             X_Move();
@@ -81,5 +91,28 @@ public class Cam : MonoBehaviour
                 return false;
         }
         return true;
+    }
+
+    void Glitching()
+    {
+        int random = Random.Range(0, 4);
+        Vector3 Tickdir = Vector3.zero;
+        switch(random)
+        {
+            case 0:
+                Tickdir = Vector3.up;
+                break;
+            case 1:
+                Tickdir = Vector3.down;
+                break;
+            case 2:
+                Tickdir = Vector3.left;
+                break;
+            case 3:
+                Tickdir = Vector3.right;
+                break;
+        }
+        Glitch.transform.position += Tickdir * signal * 20;
+        Glitchim.color = new Color(Glitchim.color.r, Glitchim.color.g, Glitchim.color.b, signal / 2);
     }
 }

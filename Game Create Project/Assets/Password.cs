@@ -65,7 +65,10 @@ public class Password : MonoBehaviour
         {
             File.SetActive(true);
             opentime += 2 * Time.deltaTime;
-            filerect.localScale = new Vector3(opentime, opentime, filerect.localScale.z);
+            if (opentime >= 1)
+                filerect.localScale = new Vector3((int)opentime, (int)opentime, filerect.localScale.z);
+            else
+                filerect.localScale = new Vector3(opentime, opentime, filerect.localScale.z);
             StartCoroutine(Scan());
             if (hacking)
             {
@@ -142,7 +145,6 @@ public class Password : MonoBehaviour
 
     void Read()
     {
-        //if (uncover) Displaying.alpha = readtime;
         if (unfoldtime > 1f) unfoldtime = (int)1;
         else if (unfoldtime <= 0f) unfoldtime = (int)0;
         float salpha = (1 - readtime);
@@ -155,6 +157,7 @@ public class Password : MonoBehaviour
             Desc.SetActive(false);
             Secret.SetActive(false);
             reading = false;
+            coverim.color = new Color(coverim.color.r, coverim.color.g, coverim.color.b, 1);
         }
         else
         {
