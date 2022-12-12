@@ -33,6 +33,7 @@ public class Cam : MonoBehaviour
         {
             signal = 0f;
             Glitchim.color = new Color(Glitchim.color.r, Glitchim.color.g, Glitchim.color.b, 0);
+            Glitch.transform.position = new Vector3(-1000, -500, 0);
         }
         if (!GameManager.CaptureMod)
         {

@@ -110,4 +110,12 @@ public class Player : MonoBehaviour
             if (num < setNum) num++;
         }
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Finish")
+        {
+            GameManager.isClear = true;
+        }
+    }
 }

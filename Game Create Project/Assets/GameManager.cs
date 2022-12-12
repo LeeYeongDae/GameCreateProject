@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static bool isOver;
+    public static bool isOver, isClear;
     public static bool CaptureMod;
     public Vector2Int bottomLeft, topRight;
     public Vector2 startPos, targetPos;
@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject Capture;
     public GameObject Player;
     public GameObject Touch;
+    GameObject Signal, End;
     int sizeX, sizeY;
     Node[,] NodeArray;
     Node StartNode, TargetNode, CurNode;
@@ -21,7 +22,7 @@ public class GameManager : MonoBehaviour
     Camera Camera;
     Animator Capanim;
 
-    private void Awake()
+    void Start()
     {
         CaptureMod = false;
         Capture = GameObject.Find("Capture");
@@ -30,11 +31,24 @@ public class GameManager : MonoBehaviour
         Touch = GameObject.Find("Destination");
         Camera = GameObject.Find("Main Camera").GetComponent<Camera>();
         Capanim = Capture.GetComponent<Animator>();
+        Signal = GameObject.Find("NOSIGNAL");
+        Signal.SetActive(false);
+        End = GameObject.Find("GameEnd");
+        End.SetActive(false);
+        Time.timeScale = 1f;
     }
 
     void Update()
     {
-        if (isOver) Time.timeScale = 0f;
+        if (isClear)
+        {
+            End.SetActive(true);
+        }
+        if (isOver)
+        {
+            Signal.SetActive(true);
+            Time.timeScale = 0f;
+        }
         startPos = Player.transform.position;
         ChangeRoom();
         if (Input.GetKeyDown(KeyCode.C))
@@ -228,5 +242,10 @@ public class GameManager : MonoBehaviour
     {
         if(FinalNodeList.Count != 0) for (int i = 0; i < FinalNodeList.Count - 1; i++)
                 Gizmos.DrawLine(new Vector2(FinalNodeList[i].x, FinalNodeList[i].y), new Vector2(FinalNodeList[i + 1].x, FinalNodeList[i + 1].y));
+    }
+
+    public void CaptureON()
+    {
+        CaptureMod = true;
     }
 }
