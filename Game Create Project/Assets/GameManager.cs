@@ -31,6 +31,8 @@ public class GameManager : MonoBehaviour
         Touch = GameObject.Find("Destination");
         Camera = GameObject.Find("Main Camera").GetComponent<Camera>();
         Capanim = Capture.GetComponent<Animator>();
+        isClear = false;
+        isOver = false;
         Signal = GameObject.Find("NOSIGNAL");
         Signal.SetActive(false);
         End = GameObject.Find("GameEnd");
@@ -47,7 +49,6 @@ public class GameManager : MonoBehaviour
         if (isOver)
         {
             Signal.SetActive(true);
-            Time.timeScale = 0f;
         }
         startPos = Player.transform.position;
         ChangeRoom();
@@ -70,7 +71,7 @@ public class GameManager : MonoBehaviour
 
     void SetTarget()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !isOver && !isClear)
         {
             Player.GetComponent<Player>().num = 1;
             targetPos = Input.mousePosition;

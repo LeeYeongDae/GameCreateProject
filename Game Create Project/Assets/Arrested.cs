@@ -28,7 +28,7 @@ public class Arrested : MonoBehaviour
         {
             if (this.detect) FacePlayer();
             else if (!this.detect && !Idle) Invoke("ReturnPos", 2f);
-            if (!this.detect && Idle && Check && Rotating) RotateEnemy();
+            if (!this.detect && Idle && Check && Rotating && !GameManager.isOver && !GameManager.isClear) RotateEnemy();
             
         }
         if (checkangle % 180 == 0)

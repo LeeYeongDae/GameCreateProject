@@ -33,7 +33,7 @@ public class Cam : MonoBehaviour
         {
             signal = 0f;
             Glitchim.color = new Color(Glitchim.color.r, Glitchim.color.g, Glitchim.color.b, 0);
-            Glitch.transform.position = new Vector3(-1000, -500, 0);
+            Glitch.transform.localPosition = new Vector3(-1000, -500, 0);
         }
         if (!GameManager.CaptureMod)
         {
@@ -113,7 +113,7 @@ public class Cam : MonoBehaviour
                 Tickdir = Vector3.right;
                 break;
         }
-        Glitch.transform.position += Tickdir * signal * 20;
+        Glitch.transform.localPosition += Tickdir * signal * 10;
         Glitchim.color = new Color(Glitchim.color.r, Glitchim.color.g, Glitchim.color.b, signal / 2);
     }
 }

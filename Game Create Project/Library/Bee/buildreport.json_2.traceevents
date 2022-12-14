@@ -1,0 +1,582 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1671025323945289, "dur": 76783, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025323946467, "dur": 13383, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025323960037, "dur": 52344, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025324012396, "dur": 9676, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025324195548, "dur": 785969, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025324195570, "dur": 20984, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025324216557, "dur": 755026, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025324971585, "dur": 9932, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025334213012, "dur": 594510, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025334213229, "dur": 2285, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025334215515, "dur": 590633, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025334806150, "dur": 1371, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025378987502, "dur": 45024, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025378987525, "dur": 1065, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025378988591, "dur": 34103, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025379022697, "dur": 9828, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025379198169, "dur": 474857, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025379198189, "dur": 20832, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025379219024, "dur": 444314, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025379663340, "dur": 9684, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025388798652, "dur": 133361, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025388798692, "dur": 2319, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025388801012, "dur": 130241, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025388931255, "dur": 757, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025434691521, "dur": 44735, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025434691542, "dur": 1093, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025434692636, "dur": 33943, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025434726581, "dur": 9674, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025434897766, "dur": 385492, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025434897788, "dur": 20974, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025434918764, "dur": 354660, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025435273426, "dur": 9832, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025444412822, "dur": 124854, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025444412835, "dur": 1335, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025444414171, "dur": 122167, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025444536340, "dur": 1336, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025541904604, "dur": 45701, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025541904625, "dur": 1087, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025541905713, "dur": 34538, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025541940253, "dur": 10052, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025542131662, "dur": 635646, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025542131682, "dur": 21120, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025542152805, "dur": 604479, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025542757286, "dur": 10021, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025551938966, "dur": 126648, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025551938977, "dur": 2133, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025551941111, "dur": 123769, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025552064883, "dur": 731, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025552065957, "dur": 111, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1671025551967085, "dur":1319, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671025551968413, "dur":132, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671025551968612, "dur":558, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671025551969195, "dur":517, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671025551969714, "dur":90607, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671025552060322, "dur":505, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671025552060962, "dur":1530, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1671025551969095, "dur":627, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551969726, "dur":3473, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551973215, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551973290, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551973371, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1671025551973503, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551973626, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551973625, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551973744, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551974037, "dur":295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551974036, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551974334, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551974422, "dur":294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551974420, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551974717, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551974799, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551974798, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551974884, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551975082, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551975081, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551975237, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551975333, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551975332, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551975434, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551975562, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551975561, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551975690, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551975806, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551975805, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551975865, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551976003, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551976002, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671025551976167, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671025551976310, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1671025551992535, "dur":66280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1671025552058874, "dur":1486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671025551969161, "dur":571, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671025551969733, "dur":3474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671025551973227, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1671025551973213, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1671025551973381, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671025551973533, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1671025551973674, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671025551973771, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671025551973770, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671025551973907, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671025551974054, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671025551974053, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671025551974211, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671025551974330, "dur":665, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671025551974328, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671025551974996, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671025551975260, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671025551975258, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671025551975425, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671025551975559, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671025551975558, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671025551975707, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671025551975854, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671025551975852, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671025551976010, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671025551976153, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1671025551980094, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1671025551982561, "dur":77848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551969200, "dur":541, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551969741, "dur":3468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551973214, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1671025551973321, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551973443, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1671025551973571, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551973739, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551973728, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551973885, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551974029, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551974027, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551974160, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551974267, "dur":402, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551974266, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551974670, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551974758, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551974757, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551974832, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551974904, "dur":192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551974903, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551975097, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551975258, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551975256, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551975411, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551975554, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551975553, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551975664, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551975728, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551975727, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551975849, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551975992, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551975991, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671025551976154, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671025551976298, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1671025551989588, "dur":70648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671025551969232, "dur":518, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671025551969750, "dur":3573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671025551973337, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1671025551973323, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1671025551973464, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671025551973592, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551973590, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551973733, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671025551973868, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551973867, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551974019, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671025551974142, "dur":482, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551974141, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551974626, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671025551974688, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551974687, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551974888, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671025551975091, "dur":228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551975089, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551975320, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671025551975426, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551975425, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551975556, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671025551975701, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551975700, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551975829, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671025551975935, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551975934, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671025551976055, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671025551976171, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671025551984986, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671025551986453, "dur":73935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671025551969268, "dur":492, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671025551969760, "dur":3557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671025551973320, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1671025551973452, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671025551973594, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551973584, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551973739, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671025551973881, "dur":143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551973879, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551974025, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671025551974158, "dur":233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551974156, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551974393, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671025551974470, "dur":407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551974469, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551974878, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671025551975079, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551975077, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551975188, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671025551975268, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551975266, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551975423, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671025551975558, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551975557, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551975698, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671025551975841, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551975840, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671025551975989, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671025551976164, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1671025551976955, "dur":5498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1671025551982489, "dur":77827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551969308, "dur":462, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551969771, "dur":3518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551973294, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1671025551973430, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551973570, "dur":256, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551973558, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551973828, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551973940, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551973938, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551974060, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551974201, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551974200, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551974439, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551974540, "dur":538, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551974539, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551975079, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551975254, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551975253, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551975414, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551975555, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551975554, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551975687, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551975787, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551975786, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551975863, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551976001, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551976000, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671025551976152, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551976289, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1671025551976288, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1671025551976365, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671025551993200, "dur":66488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1671025552059722, "dur":601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671025551969342, "dur":438, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671025551969780, "dur":3527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671025551973323, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1671025551973311, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1671025551973457, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671025551973626, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551973624, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551973742, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671025551973888, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551973886, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551974036, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671025551974164, "dur":264, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551974163, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551974429, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671025551974522, "dur":391, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551974521, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551974914, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671025551975101, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551975100, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551975260, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671025551975561, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551975560, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551975726, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671025551976056, "dur":10675, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\Data\\Plugins\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551976055, "dur":10678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551986846, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671025551987752, "dur":72614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551969377, "dur":412, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551969790, "dur":3508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551973303, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1671025551973438, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551973567, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551973561, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551973719, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551973842, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551973841, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551973965, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551974082, "dur":467, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551974080, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551974550, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551974632, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551974630, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551974840, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551974919, "dur":185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551974918, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551975108, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551975256, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551975255, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551975409, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551975547, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551975545, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551975641, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551975721, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551975719, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551975851, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551975995, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551975994, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671025551976146, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671025551976286, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1671025551976286, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1671025551976523, "dur":83799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671025551969409, "dur":392, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671025551969801, "dur":3477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671025551973296, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1671025551973283, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1671025551973429, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671025551973558, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551973557, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551973723, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671025551973851, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551973850, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551973968, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671025551974082, "dur":388, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551974081, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551974471, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671025551974560, "dur":469, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551974559, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551975030, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671025551975241, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551975240, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551975381, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671025551975498, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551975496, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551975593, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671025551975704, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551975703, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551975835, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671025551975956, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551975955, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671025551976070, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671025551976186, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1671025551980542, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1671025551982450, "dur":77867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671025551969441, "dur":368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671025551969809, "dur":3459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671025551973272, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1671025551973402, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671025551973543, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":10, "ts":1671025551973532, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project.exe" }}
+,{ "pid":12345, "tid":10, "ts":1671025551973680, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671025551973781, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551973780, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551973908, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671025551974049, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551974047, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551974185, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671025551974308, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551974307, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551974528, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671025551974599, "dur":215, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551974598, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551974815, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671025551974886, "dur":204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551974884, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551975091, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671025551975436, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551975435, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551975569, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671025551975845, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551975843, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671025551975994, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671025551976138, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1671025551984689, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1671025551985936, "dur":74462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551969497, "dur":328, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551969825, "dur":3424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551973253, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1671025551973359, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551973483, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551973475, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551973599, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551973725, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551973723, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551973889, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551974164, "dur":436, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551974163, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551974601, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551974664, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551974663, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551974836, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551974903, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551974902, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551975088, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551975236, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551975234, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551975378, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551975497, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551975496, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551975604, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551975717, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551975716, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551975848, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551975992, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551975990, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671025551976138, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671025551976291, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1671025551985476, "dur":73222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1671025552058758, "dur":1619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551969468, "dur":349, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551969817, "dur":3440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551973272, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":12, "ts":1671025551973261, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1671025551973405, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551973533, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1671025551973532, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1671025551973654, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551973763, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551973762, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551973901, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551974043, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551974042, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551974188, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551974305, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551974304, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551974513, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551974596, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551974594, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551974852, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551974922, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551974921, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551975167, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551975271, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551975270, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551975439, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551975575, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551975574, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551975738, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551975854, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551975853, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671025551976004, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671025551976163, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1671025551984057, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1671025551985733, "dur":74670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551969528, "dur":307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551969836, "dur":3405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551973245, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1671025551973365, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551973501, "dur":230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551973495, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551973732, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551973865, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551973864, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551974004, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551974100, "dur":278, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551974099, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551974379, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551974456, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551974454, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551974655, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551974729, "dur":268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551974728, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551974998, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551975235, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551975234, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551975371, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551975465, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551975464, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551975574, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551975736, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551975735, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551975891, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551976014, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551976013, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1671025551976174, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1671025551976307, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1671025551989950, "dur":68980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1671025552058958, "dur":1375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551969560, "dur":283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551969843, "dur":3387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551973246, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1671025551973234, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1671025551973363, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551973506, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551973505, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551973641, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551973767, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551973766, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551973908, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551974057, "dur":361, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551974055, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551974419, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551974521, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551974520, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551974749, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551974828, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551974826, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551975091, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551975232, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551975231, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551975358, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551975438, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551975437, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551975570, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551975696, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551975694, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551975833, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551975939, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551975938, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1671025551976180, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1671025551976347, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1671025551992832, "dur":66362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1671025552059234, "dur":1111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1671025551969594, "dur":257, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1671025551969852, "dur":3370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1671025551973226, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1671025551973582, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1671025551973747, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1671025551973736, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1671025551973895, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1671025551974050, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":15, "ts":1671025551974048, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":15, "ts":1671025551974205, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1671025551974325, "dur":872, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1671025551974323, "dur":875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1671025551975198, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1671025551975294, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1671025551975292, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1671025551975419, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1671025551975556, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1671025551975554, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1671025551975708, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1671025551975843, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1671025551975842, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1671025551975955, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1671025551976069, "dur":285, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\StreamingAssets\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":15, "ts":1671025551976068, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":15, "ts":1671025551976356, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1671025551976453, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1671025551976453, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1671025551976563, "dur":83756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551969643, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551969862, "dur":3352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551973229, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":16, "ts":1671025551973218, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1671025551973345, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551973462, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":16, "ts":1671025551973585, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551973725, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551973723, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551973857, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551973984, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551973983, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551974094, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551974212, "dur":226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551974211, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551974439, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551974741, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551974740, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551974857, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551974930, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551974928, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551975081, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551975226, "dur":202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551975225, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551975429, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551975687, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551975686, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551975805, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551975872, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\dldud\\Documents\\GitHub\\GameCreateProject\\Game Create Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551975870, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1671025551976013, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1671025551976157, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dldud/Desktop/ /Game Create Project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1671025551976812, "dur":82104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dldud/Desktop/ /Game Create Project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1671025552058957, "dur":1395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671025552064038, "dur":1883, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1671025552066136, "dur": 1074, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671025552065946, "dur": 1282, "ph": "X", "name": "Write chrome-trace events", "args": {} },
